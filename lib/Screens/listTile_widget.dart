@@ -25,7 +25,6 @@ class ListTileWidget extends StatelessWidget {
                     Colors.deepOrangeAccent
                   ], // red to yellow
                 ),
-                color: Colors.teal,
                 borderRadius: BorderRadiusDirectional.only(
                   topEnd: Radius.circular(20.0),
                   bottomStart: Radius.circular(20.0),
@@ -41,7 +40,15 @@ class ListTileWidget extends StatelessWidget {
             SizedBox(height: 10,),
             Container(
               decoration: BoxDecoration(
-                color: Colors.grey,
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end:
+                  Alignment(0.8, 0.0), // 10% of the width, so there are ten blinds.
+                  colors: <Color>[
+                    Colors.cyan,
+                    Colors.pinkAccent,
+                  ], // red to yellow
+                ),
                 borderRadius: BorderRadiusDirectional.only(
                   topEnd: Radius.circular(20.0),
                   bottomStart: Radius.circular(20.0),
@@ -57,7 +64,15 @@ class ListTileWidget extends StatelessWidget {
             SizedBox(height: 10,),
             Container(
               decoration: BoxDecoration(
-                color: Colors.lightBlue,
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end:
+                  Alignment(0.8, 0.0), // 10% of the width, so there are ten blinds.
+                  colors: <Color>[
+                    Colors.blueAccent,
+                    Colors.lime,
+                  ], // red to yellow
+                ),
                 borderRadius: BorderRadiusDirectional.only(
                   topEnd: Radius.circular(20.0),
                   bottomStart: Radius.circular(20.0),
@@ -73,7 +88,15 @@ class ListTileWidget extends StatelessWidget {
             SizedBox(height: 10,),
             Container(
               decoration: BoxDecoration(
-                color: Colors.deepOrangeAccent,
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end:
+                  Alignment(0.8, 0.0), // 10% of the width, so there are ten blinds.
+                  colors: <Color>[
+                    Colors.redAccent,
+                    Colors.brown,
+                  ], // red to yellow
+                ),
                 borderRadius: BorderRadiusDirectional.only(
                   topEnd: Radius.circular(20.0),
                   bottomStart: Radius.circular(20.0),
@@ -89,7 +112,15 @@ class ListTileWidget extends StatelessWidget {
             SizedBox(height: 10,),
             Container(
               decoration: BoxDecoration(
-                color: Colors.lightGreen,
+                gradient: LinearGradient(
+                  begin: Alignment.topLeft,
+                  end:
+                  Alignment(0.8, 0.0), // 10% of the width, so there are ten blinds.
+                  colors: <Color>[
+                    Colors.green,
+                    Colors.deepPurpleAccent,
+                  ], // red to yellow
+                ),
                 borderRadius: BorderRadiusDirectional.only(
                   topEnd: Radius.circular(20.0),
                   bottomStart: Radius.circular(20.0),
